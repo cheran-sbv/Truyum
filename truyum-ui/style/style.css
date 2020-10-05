@@ -1,0 +1,122 @@
+
+/* Start of Head style*/
+
+header{                 /*menu-item-list-admin.html*/
+    height:80px;
+    background-color:#3f75a2;
+}
+.head{
+    float: left;
+    width: 5%;
+    font-size: 40px;
+    margin:15px 0 0 35px;
+    color:#ffffff
+}
+.logo{
+    width: 25%;
+    float: left;
+    margin: 0 0 0 35px;
+}
+img{
+    float:left;
+    height:80px;
+    width: 90px;
+}
+nav{
+    width:auto;
+    float: right;
+    margin:20px 150px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.nav-link{
+    color:#ffffff
+}
+/* End of Head Style */
+
+/*Start of Section Style*/
+section{
+    height: 700px;
+}
+.content-head{
+    font-size: 35px;
+    margin: 50px 0 0 15%;
+    font-family: sans-serif;
+    padding:40px 0 40px 0;
+
+}
+.item-table{
+    margin: 10px 0 0 15%;
+}
+#menu-item{
+    width:80%;
+    font-family: sans-serif;  
+}
+#menu-item th{
+    padding-bottom: 30px;
+    text-align: left;
+    font-weight: 100px;
+    font-size: 25px;
+    
+}
+#menu-item td{
+    padding-bottom:20px;
+    font-size: 20px;
+
+}
+
+.status{                     /*display status*/
+    font-size: 20px;
+    margin: 50px 0 0 15%;
+    font-family: sans-serif;
+    color:#00cc00;
+    font-weight: 700;
+}
+.edit-menu-form{              /*edit-menu-item.html*/
+    margin:10px 0 0 15%;
+}
+#edit-menu-table{
+    width: 90%;
+    font-family: sans-serif;
+}
+#edit-menu-table td{
+    padding-bottom:20px;
+    font-size: 20px;
+}
+#edit-catogory{
+    width: 200px;
+}
+#edit-name{
+    width:80%;
+}
+#edit-save{
+    height:50px;
+    width:125px;
+    background-color:#3f75a2;
+    font-size: 20px;
+    font-weight: 700;
+    color:#ffffff;
+    margin-top: 15px;
+}
+
+.empty{
+    font-size: 20px;
+    margin: 50px 0 0 15%;
+    font-family: sans-serif;
+    color:#a9a9a9;
+    font-weight: 700;
+}
+
+/*End of Section Style*/
+
+
+/* Start of Footer Style */
+footer{
+    height:80px;
+    background-color: #a9a9a9;
+} 
+.footer{
+    padding-top: 5px;
+    font-size: 25px;
+    margin:0 0 0 25px;
+}

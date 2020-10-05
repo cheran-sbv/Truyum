@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>menu-item-list-admin</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+            <div class="head">
+                truYum
+            </div>
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" class="head-logo">
+            </div>
+            <nav>
+                <a class="nav-link" href=" menu-item-list-admin.html">Menu</a>
+            </nav>
+        </header>
+        <section>
+            <div class="content-head">
+                Edit Menu Item
+            </div>
+            <div class="edit-menu-form">
+
+                <form name="editMenuItem" onsubmit= "return validateForm()" action="edit-menu-item-status.html">
+
+                    <table class="edit-menu-table" id="edit-menu-table"> 
+                        <tr>
+                            <td colspan="4">
+                                <label for="edit-name">Name</label><br>
+                                <input type="text" name="title" id="edit-name">
+                            </td>
+                        </tr>   
+                        <tr>
+                            <td>
+                                <label for="edit-price">Price (RS.)</label><br>
+                                <input type="text" name="price" id="edit-price">
+                            </td>
+                            <td>
+                                <label for="edit-Active">Active</label><br>
+                                <input type="radio" name="inStock" id="yes">Yes
+                                <input type="radio" name="inStock" id="No"/>No
+                            </td>
+                            <td>
+                                <label for="edit-date">Date Of Launch</label><br>
+                                <input type="text" name="dateOfLaunch" id="edit-date"> 
+                            </td>
+                            <td>
+                                <label for="edit-catogory">Category</label><br>
+                                <select name="category" id="edit-catogory">
+                                    <option value="select">Select</option>
+                                    <option value="maincourse">Main Course</option>
+                                    <option value="starters">Starters</option>
+                                    <option value="dessert">Dessert</option>
+                                    <option value="drinks">Drinks</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <input type="checkbox" name="freeDelivery" id="edit-freedelivery">
+                                <label for="edit-freedelivery">Free Delivery</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <input type="submit" name="submit" id="edit-save" value="Save">
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+
+        </section>
+        <footer>
+            <div class="footer">
+            <p id="footer">Copyright &copy; 2019</p>
+            </div>
+        </footer>
+</body>
+</html>
